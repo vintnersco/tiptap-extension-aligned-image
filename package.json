@@ -1,0 +1,36 @@
+{
+  "name": "@vintners/tiptap-extension-aligned-image",
+  "version": "0.0.6",
+  "description": "tiptap extension to support basic alignment for images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vintnersco/tiptap-extension-aligned-image.git"
+  },
+  "keywords": [
+    "tiptap",
+    "image",
+    "extension",
+    "align",
+    "left",
+    "right",
+    "center"
+  ],
+  "author": "bogdan@vintners.co",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vintnersco/tiptap-extension-aligned-image/issues"
+  },
+  "homepage": "https://github.com/vintnersco/tiptap-extension-aligned-image#readme",
+  "dependencies": {
+    "@tiptap/extension-image": "^2.0.0-beta.202"
+  },
+  "peerDependencies": {
+    "@tiptap/core": "^2.0.0-beta.193"
+  }
+}
