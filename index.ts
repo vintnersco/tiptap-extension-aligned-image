@@ -34,8 +34,11 @@ export function getAlignmentClass(align?: 'left' | 'right' | 'center' | 'none' |
 
 const AlignedImage = Image.extend({
     name: 'alignedImage',
-    defaultOptions: {
-        align: ['center', 'left', 'right', 'none']
+    addOptions() {
+        return {
+            ...this.parent?.(),
+            align: ['center', 'left', 'right', 'none']
+        }
     },
     addAttributes() {
         return {

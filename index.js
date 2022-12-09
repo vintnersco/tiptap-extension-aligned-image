@@ -38,8 +38,9 @@ function getAlignmentClass(align) {
 exports.getAlignmentClass = getAlignmentClass;
 const AlignedImage = extension_image_1.default.extend({
     name: 'alignedImage',
-    defaultOptions: {
-        align: ['center', 'left', 'right', 'none']
+    addOptions() {
+        var _a;
+        return Object.assign(Object.assign({}, (_a = this.parent) === null || _a === void 0 ? void 0 : _a.call(this)), { align: ['center', 'left', 'right', 'none'] });
     },
     addAttributes() {
         var _a;

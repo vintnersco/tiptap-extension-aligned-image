@@ -1,6 +1,6 @@
 {
   "name": "@vintners/tiptap-extension-aligned-image",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "tiptap extension to support basic alignment for images",
   "main": "index.js",
   "scripts": {
